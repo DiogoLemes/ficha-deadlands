@@ -1,0 +1,62 @@
+#root {
+  padding: 0.5rem;
+}
+
+.grid-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-personagem {
+  display:grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  text-align:center;
+  margin: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+fieldset, form {
+  width: 50vw;
+}
+
+input {
+  width: 10%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.poder, .equipamento {
+  width: 90%;
+}
+
+#nomePersonagem {
+  width: 40%;
+}
+
+.defesa {
+  width: 10%;
+}
+
+#fieldsetDados {
+  width: 20vw;
+  height: 35vw;
+}
+
+.dados input {
+  width: 20%;
+}
+
+#rolardados {
+  width: 50%;
+}
+
+.pericias{
+  display: grid;
+  margin: 2px 2px;
+}
+.atributo{
+  display: grid;
+  margin: 2px 2px;
+}
